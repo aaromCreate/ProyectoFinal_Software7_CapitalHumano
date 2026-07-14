@@ -1,0 +1,25 @@
+{
+    "name": "inscripcion/parcial-practico",
+    "description": "Sistema MVC en PHP nativo para colaboradores, perfiles laborales e integridad OpenSSL.",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.1",
+        "ext-mbstring": "*",
+        "ext-openssl": "*",
+        "ext-pdo": "*",
+        "phpoffice/phpspreadsheet": "^5.8"
+    },
+    "autoload": {
+        "classmap": [
+            "app/",
+            "api/",
+            "config/"
+        ]
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "@composer dump-autoload"
+        ]
+    }
+}

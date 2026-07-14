@@ -1,0 +1,18 @@
+# Configuracion local
+.env
+
+# Dependencias
+vendor/
+
+# Archivos generados
+publico/uploads/*
+!publico/uploads/.gitkeep
+*.xlsx
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Llaves OpenSSL
+config/keys/*.pem
